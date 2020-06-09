@@ -1,0 +1,40 @@
+@media screen and (min-width : 768px){
+	header a.logo,
+	header label{
+		display: none;
+	}
+}
+@media screen and (min-width : 576px) and (max-width : 767px){
+	header a.logo{
+		margin: auto;
+		font-size: 30px;
+		padding: 10px;
+	}
+	header nav{
+		display: none;
+	}
+	header input:checked ~ nav{
+		display: block;
+	}
+	.content_testimonial{
+		display: grid !important;
+		grid-template-columns: auto auto !important;
+	}
+}
+@media screen and (max-width : 575px){
+	header a.logo{
+		margin: auto;
+		font-size: 30px;
+		padding: 10px;
+	}
+	header nav{
+		display: none;
+	}
+	.content_testimonial{
+		display: grid !important;
+		grid-template-columns: auto !important;
+	}
+	section.contact .contentAbout{
+		width: 100% !important;
+	}
+}

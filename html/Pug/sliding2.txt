@@ -1,0 +1,30 @@
+	section(class="carousel slide", id="slidingPart" , data-ride="carousel")
+            ul(class="carousel-indicators ")
+                li(class="active", data-slide-to="0", data-target="#slidingPart")
+                li( data-slide-to="1", data-target="#slidingPart")
+                li( data-slide-to="2", data-target="#slidingPart")
+            div(class="carousel-inner")
+                div(class="carousel-item active")
+                    img(src="FileImg??", alt="alt", class="position-relative")
+                    div(class="carousel-caption d-none d-block")
+                        .row.py-5
+                            div(class="col-md-6 col-12 text-left")
+                                content??
+		div(class="carousel-item active")
+                    img(src="FileImg??", alt="alt", class="position-relative")
+                    div(class="carousel-caption d-none d-block")
+                        .row.py-5
+                            div(class="col-md-6 col-12 text-left")
+                                content??
+		div(class="carousel-item active")
+                    img(src="FileImg??", alt="alt", class="position-relative")
+                    div(class="carousel-caption d-none d-block")
+                        .row.py-5
+                            div(class="col-md-6 col-12 text-left")
+                                content??
+            a(class="carousel-control-prev" href="#slidingPart" role="button" data-slide="prev")
+                span( class="carousel-control-prev-icon" aria-hidden="true")
+                span(class="sr-only")
+            a(class="carousel-control-next" href="#slidingPart" role="button" data-slide="next")
+                span(class="carousel-control-next-icon" aria-hidden="true")
+                span(class="sr-only")

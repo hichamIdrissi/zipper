@@ -1,0 +1,149 @@
+/*
+	1- Commun Styles
+	2 - General Styles
+	3 - Sections : 
+		3.1 - Header Section
+		3.2 - Home Section
+		3.3 - about Section
+		3.4 - service Section
+		3.5 - testimonial Section
+		3.5 - contact Section
+*/
+/* Commun */
+/*
+	- Effects
+*/
+/* General Css Styles */    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.list-style{
+    list-style: none;
+}
+
+.backgroundImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+/* Start Header  */
+header{
+    position: relative;
+}
+header input{
+    display: none;
+}
+header input,
+header label{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    border: 1Px solid #3d3d3d;
+    padding: 5px;
+}
+header nav{
+    justify-content: center;
+}
+.headTop{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+/* End Header */
+/* Start section */
+    /* =================== 3.1 Home Section ================*/
+section.backgroundImage{
+    background-image: url("C:/Users/Mr. Idrissi/Desktop/Sites/Zipper/images/image-01.jpg");
+    height: 100vh;
+}
+.contentHeader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    /* =================== 3.1 about Section ================*/
+
+section.about{
+    background-image: url("C:/Users/Mr. Idrissi/Desktop/Sites/Zipper/images/image-02.jpg");
+    background-attachment: fixed;
+    background-position:center ;
+    height: auto;
+}
+.contentAbout{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+
+section.contact h5,
+section.service h4,
+section.about h4{
+    color: #f1e64c;
+}
+    /* =================== 3.1 service Section ================*/
+
+section.service{
+    background-image: url("C:/Users/Mr. Idrissi/Desktop/Sites/Zipper/images/image-03.jpg");
+    background-attachment: fixed;
+    background-position:center ;
+    height: auto;
+}
+    /* =================== 3.1 testimonial Section ================*/
+
+section.testimonial.backgroundImage{
+    background-image: url("C:/Users/Mr. Idrissi/Desktop/Sites/Zipper/images/image-04.jpg");
+    background-attachment: fixed;
+    height: auto;
+}
+.content_testimonial{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.content_test{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 5px;
+}
+.content_test i{
+    font-size: 30px;
+}
+.content_test p{
+    line-height: 1.5rm;
+}
+    /* =================== 3.1 contact Section ================*/
+
+section.contact.backgroundImage{
+    background-image: url("C:/Users/Mr. Idrissi/Desktop/Sites/Zipper/images/image-05.jpg");
+    background-attachment: fixed;
+    height: auto;
+}
+section.contact textarea,
+section.contact input{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #3d3d3d;
+    background-color: #3d3d3d4d;
+}
+section.contact button{
+    background-color: #3d3d3d;
+}
+/* End section */
+/* Start Main  */
+/* End Main */
+/* Start aside */
+/* End aside */
+/* Start Article */
+/* End Article */
+/* Start Footer */
+/* End Footer  */
+
+/* Animation */
